@@ -4,13 +4,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.0.0"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.0.3", ">= 7.0.3.1"
+gem "rails", '~> 7.2.0', "~> 7.0.3", ">= 7.0.3.1"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
-gem "sprockets-rails"
+gem "sprockets-rails", '~> 3.4.2'
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem "puma", "~> 5.0"
+gem "puma", "~> 5.0", '~> 6.4.2'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
@@ -25,3 +25,43 @@ group :development do
   # gem "spring"
 end
 
+
+gem 'activesupport', '~> 7.0.7.1'
+
+gem 'activerecord', '~> 7.0.7.1'
+
+gem 'nokogiri', '~> 1.16.5'
+
+gem 'activestorage', '~> 7.2.0'
+
+gem 'railties', '~> 7.2.0'
+
+gem 'actionmailbox', '~> 7.2.0'
+
+gem 'actionview', '~> 7.0.7.1'
+
+gem 'actionmailer', '~> 7.2.0'
+
+gem 'rack-test', '~> 2.0.2'
+
+gem 'actiontext', '~> 7.2.0'
+
+gem 'sprockets', '~> 4.2.0'
+
+gem 'rack', '~> 3.0.9.1'
+
+gem 'activemodel', '~> 7.0.7.1'
+
+gem 'globalid', '~> 1.0.1'
+
+gem 'actionpack', '~> 7.2.0'
+
+gem 'actioncable', '~> 7.2.0'
+
+gem 'rails-html-sanitizer', '~> 1.4.4'
+
+gem 'rails-dom-testing', '~> 2.0.3'
+
+gem 'loofah', '~> 2.19.1'
+
+gem 'activejob', '~> 7.0.7.1'
